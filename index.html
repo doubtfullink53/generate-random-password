@@ -1,0 +1,61 @@
+
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- main section populated  state -->
+
+    <div id="unpopulated-state">
+      <!-- button generate passwords -->
+      <div
+        class="generate-button"
+        onclick="generatePasswords()"
+        style="cursor: pointer">
+        
+        <div class="generate-button-text">Generate passwords</div>
+        
+        <div class="lightning-bolt"></div>
+      </div>
+      
+      
+      <div class="heading"></div>
+      
+      <div class="supporting-text">Never use an insecure password again</div>
+      <div id="password-length" class="password-length-text">Password Length</div>
+      <input type="number" id="number-box"  pattern="[0-9]{2}" min="0" max="18" value="14" ></input>
+      <div class="line-17"></div>
+      
+      <!-- rectangle 101 icon bottom left -->
+      <div class="rectangle-101"></div>
+      <div id="text-bottom-left"></div>
+      <div class="icon-bottom-left" id="icon-bottom-left">
+        <img src="images/Icon.png" alt="" />
+      </div>
+
+      <!-- rectangle 102 icon bottom right -->
+      <div class="rectangle-102"></div>
+      <div id="text-bottom-right"></div>
+      <div class="icon-bottom-right" id="icon-bottom-right">
+        <img src="images/Icon.png" alt="" />
+      </div>
+
+      <!-- rectangle 99 icon top left -->
+      <div class="rectangle-99"></div>
+      <div id="text-top-left"></div>
+      <div class="icon-top-left" id="icon-top-left">
+        <img src="images/Icon.png" alt="" />
+      </div>
+
+      <!-- rectangle 100 icon top right -->
+
+      <div class="rectangle-100"></div>
+      <div id="text-top-right"></div>
+      <div class="icon-top-right" id="icon-top-right">
+        <img src="images/Icon.png" alt="" />
+      </div>
+    </div>
+    
+    <script src="index.js"></script>
+  </body>
+</html>
