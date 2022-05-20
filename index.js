@@ -11,8 +11,13 @@ let deleteIconTopRight = document.getElementById("icon-top-right")
 
 
 function generatePasswords() {
-
-    let passwordLength = document.getElementById("number-box").value
+    
+  let passwordLength = document.getElementById("number-box").value
+    console.log(passwordLength)
+    if(passwordLength > 18){
+      
+      passwordLength = 18;
+     }
 
     console.log(passwordLength)
 

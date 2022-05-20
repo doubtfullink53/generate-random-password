@@ -358,3 +358,23 @@ line-height: 24px;
 
 color: #000000;
 }
+
+.password-length-warning{
+  position: absolute;
+  width: 186px;
+  height: 25px;
+  left: 322px;
+  top: 326px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 28px;
+  
+  /* or 280% */
+  
+  color: #6B7280;
+  
+  
+}
