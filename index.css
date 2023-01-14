@@ -4,14 +4,20 @@ body {
   padding: 0;
   background-color: black;
 }
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 
 /* unpopulated-state */
 #unpopulated-state {
-  position: absolute;
   width: 550px;
   height: 550px;
-  left: 61px;
-  top: 64px;
+  position: relative;
+  margin: auto;
 
   background: #ecfdf5;
 }
